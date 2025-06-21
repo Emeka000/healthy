@@ -97,9 +97,9 @@ const LandingPage = () => {
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                   <Wallet className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">StarkNet Payments</h3>
+                <h3 className="text-xl font-semibold mb-2">Sui Payments</h3>
                 <p className="text-muted-foreground">
-                  Streamlined NHIS insurance payments with the security and efficiency of the StarkNet ecosystem.
+                  Streamlined NHIS insurance payments with the security and efficiency of the Sui ecosystem.
                 </p>
               </div>
             </div>
@@ -144,7 +144,7 @@ const LandingPage = () => {
                     <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <CheckCircle className="h-3 w-3 text-primary" />
                     </div>
-                    <p className="text-sm">StarkNet integration for seamless NHIS insurance payments</p>
+                    <p className="text-sm">Sui integration for seamless NHIS insurance payments</p>
                   </div>
                 </div>
               </div>
@@ -171,7 +171,7 @@ const LandingPage = () => {
             <div className="text-center max-w-2xl mx-auto mb-16">
               <h2 className="text-3xl font-bold mb-4">Security & Privacy</h2>
               <p className="text-muted-foreground">
-                Health-Chain Nexus implements cutting-edge cryptographic techniques to ensure your medical data remains private and secure.
+                Health-Chain implements cutting-edge cryptographic techniques to ensure your medical data remains private and secure.
               </p>
             </div>
 

@@ -10,7 +10,7 @@ const Payment = () => {
     {
       id: "tx-001",
       title: "NHIS Premium Payment",
-      amount: "500 STRK",
+      amount: "15 Sui",
       date: "April 15, 2025",
       status: "completed",
       txHash: "0x3a8d7...f92e1"
@@ -18,7 +18,7 @@ const Payment = () => {
     {
       id: "tx-002",
       title: "Hospital Co-payment",
-      amount: "50 STRK",
+      amount: "3 Sui",
       date: "March 30, 2025",
       status: "completed",
       txHash: "0x9c2e5...8b4d2"
@@ -26,7 +26,7 @@ const Payment = () => {
     {
       id: "tx-003",
       title: "Prescription Coverage",
-      amount: "25 STRK",
+      amount: "5 Sui",
       date: "March 17, 2025",
       status: "completed",
       txHash: "0x7d1a3...4c9f8"
@@ -36,7 +36,7 @@ const Payment = () => {
   return (
     <div className="space-y-8 max-md:mt-11">
       <div className="space-y-2">
-        <h1 className="text-3xl font-bold tracking-tight">NHIS StarkNet Payments</h1>
+        <h1 className="text-3xl font-bold tracking-tight">NHIS Sui Payments</h1>
         <p className="text-muted-foreground">Manage your health insurance payments securely with StarkNet</p>
       </div>
 
@@ -56,7 +56,7 @@ const Payment = () => {
             <div className="mt-4 flex justify-between items-center">
               <div>
                 <p className="text-sm text-muted-foreground">Balance</p>
-                <p className="text-2xl font-semibold">1,250 STRK</p>
+                <p className="text-2xl font-semibold">250 Sui</p>
               </div>
               <Badge variant="outline" className="flex items-center gap-1">
                 <CheckCircle className="h-3 w-3 text-green-600" />
@@ -182,7 +182,7 @@ const Payment = () => {
       <Card>
         <CardHeader>
           <CardTitle>StarkNet Integration</CardTitle>
-          <CardDescription>Secure, transparent healthcare payments powered by StarkNet</CardDescription>
+          <CardDescription>Secure, transparent healthcare payments powered by Sui</CardDescription>
         </CardHeader>
         <CardContent>
           <div className="space-y-4">
@@ -204,14 +204,14 @@ const Payment = () => {
               </div>
             </div>
             <p className="text-sm text-muted-foreground">
-              Health-Chain uses StarkNet's Layer 2 blockchain technology to provide secure, 
+              Health-Chain uses Sui's blockchain technology to provide secure, 
               transparent, and efficient healthcare payments. Zero-knowledge proofs ensure your 
               payment information remains private while still being verifiable.
             </p>
           </div>
         </CardContent>
         <CardFooter>
-          <Button variant="outline" className="w-full">Learn More About StarkNet Integration</Button>
+          <Button variant="outline" className="w-full">Learn More About Sui Integration</Button>
         </CardFooter>
       </Card>
     </div>

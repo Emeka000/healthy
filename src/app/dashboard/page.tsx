@@ -17,7 +17,7 @@ const Dashboard = () => {
     <div className="space-y-8 max-md:mt-11">
       <div className="space-y-2 flex flex-col items-center">
         <h1 className="text-3xl font-bold tracking-tight">
-          Welcome to Health-Chain Nexus
+          Welcome to Health-Chain 
         </h1>
         <p className="text-muted-foreground">
           Your decentralized health records at your fingertips
@@ -120,7 +120,7 @@ const Dashboard = () => {
                 <span className="font-medium">15 May 2025</span>
               </div>
               <div className="flex justify-between py-1">
-                <span>StarkNet Wallet</span>
+                <span>Sui Wallet</span>
                 <span className="font-medium">Connected</span>
               </div>
             </div>
