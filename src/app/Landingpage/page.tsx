@@ -17,6 +17,7 @@ const LandingPage = () => {
               <a href="#features" className="text-sm font-medium hover:text-primary">Features</a>
               <a href="#about" className="text-sm font-medium hover:text-primary">About</a>
               <a href="#security" className="text-sm font-medium hover:text-primary">Security</a>
+              <a href="/login" className="text-sm font-medium hover:text-primary">Login</a>
             </nav>
             <Button asChild>
               <Link href="/dashboard">Enter App</Link>
