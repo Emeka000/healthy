@@ -18,9 +18,9 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#191B1F] flex items-center justify-center p-4">
+    <div className="min-h-screen bg-white flex items-center justify-center p-4">
       <div className="w-full max-w-md">
-        <div className="bg-[#191B1F] border border-[#F0F0F033] rounded-lg p-8 space-y-6">
+        <div className="bg-white border border-gray-500 rounded-lg p-8 space-y-6">
           {/* Header */}
           <div className="text-start space-y-2">
             <h1 className="text-2xl font-semibold text-[#288C3B]">Login To Your Account</h1>
@@ -28,7 +28,7 @@ export default function LoginPage() {
           </div>
 
           {/* Tabs */}
-          <div className="flex space-x-1 bg-[#2D302D] p-1 rounded-lg">
+          <div className="flex space-x-1 bg-white border border-gray-400 p-1 rounded-lg">
             <button
               onClick={() => setActiveTab("email")}
               className={`flex-1 py-2 px-4 text-sm font-medium rounded-md transition-colors ${
@@ -58,7 +58,7 @@ export default function LoginPage() {
                   <Input
                     id="email"
                     type="email"
-                    className="bg-[#2D302D] py-5 my-3 border-[#444B44] text-white placeholder-gray-400 focus:border-green-500 focus:ring-green-500"
+                    className="bg-white py-5 my-3 border-[#444B44] text-white placeholder-gray-400 focus:border-green-500 focus:ring-green-500"
                     required
                   />
                 </div>
@@ -70,7 +70,7 @@ export default function LoginPage() {
                   <Input
                     id="password"
                     type="password"
-                    className="bg-[#2D302D] py-5 my-3 border-[#444B44] text-white placeholder-gray-400 focus:border-green-500 focus:ring-green-500"
+                    className="bg-white py-5 my-3 border-[#444B44] text-white placeholder-gray-400 focus:border-green-500 focus:ring-green-500"
                     required
                   />
                 </div>
